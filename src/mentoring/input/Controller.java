@@ -9,11 +9,10 @@ public class Controller {
     private static LinkedList<Enemy> e=new LinkedList<>();
     private Enemy tempE;
     public Controller(){
-        e.add(new Enemy(300,200));
-        e.add(new Enemy(200,300));
-        e.add(new Enemy(240,400));
+        e.add(new Enemy(500,300));
+        e.add(new Enemy(400,250));
         e.add(new Enemy(153,100));
-        e.add(new Enemy(123,50));
+        e.add(new Enemy(200,50));
     }
     public void draw(Graphics2D g2d){
         for (int i = 0; i <e.size() ; i++) {

@@ -13,8 +13,13 @@ public class Player extends GlobalPosition {
     private int velX;
     private int velY;
     private static LinkedList<Enemy> e= Controller.getEnemyBounds();
-    public Player(int x, int y) {
+    private Princess pr;
+    private Home h;
+    private boolean gotThePrincess=false;
+    public Player(int x, int y,Princess pr,Home h) {
         super(x, y);
+        this.pr=pr;
+        this.h=h;
     }
     public void update(){
         x+=velX;
@@ -34,14 +39,28 @@ public class Player extends GlobalPosition {
         if (y>413){
             y=413;
         }
-        collision();
+        collisionWithPrincess();
+        collisionWithEnemy();
+        collisionWithHome();
     }
-    public void collision(){
+    private void collisionWithEnemy(){
         for (int i = 0; i <e.size() ; i++) {
             if (getRectange().intersects(e.get(i).getRectange())){
-                JOptionPane.showMessageDialog(null,"Boom!, Oyunu tekrar calistir");
+                JOptionPane.showMessageDialog(null,"Boom!, Restart the game XD");
                 System.exit(0);
             }
+        }
+    }
+    private void collisionWithPrincess(){
+        if (getRectange().intersects(pr.getRectangle())){
+            pr.update(x,y);
+            gotThePrincess=true;
+        }
+    }
+    private void collisionWithHome(){
+        if (getRectange().intersects(h.getRectangle())&&gotThePrincess){
+            JOptionPane.showMessageDialog(null,"Got the Princess! Happy Valantine's day :)");
+            System.exit(0);
         }
     }
     public Rectangle getRectange(){
@@ -50,7 +69,7 @@ public class Player extends GlobalPosition {
     public void draw(Graphics2D g2d){
         g2d.drawImage(getPlayerImage(),x,y,null);
     }
-    public Image getPlayerImage(){
+    private Image getPlayerImage(){
         ImageIcon i=new ImageIcon(getClass().getResource(playerImage));
         return i.getImage();
     }

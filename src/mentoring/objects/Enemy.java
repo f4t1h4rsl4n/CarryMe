@@ -35,4 +35,5 @@ public class Enemy extends GlobalPosition {
         ImageIcon i=new ImageIcon(getClass().getResource(enemyAdress));
         return i.getImage();
     }
+
 }
