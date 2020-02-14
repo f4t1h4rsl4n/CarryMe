@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3eaedbf7-06e8-4ac2-b699-9394744c6c8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mentoring/objects/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mentoring/objects/Images/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mentoring/objects/Images/princess.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mentoring/objects/Princess.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Mentoring/mentoring/Adana.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mentoring/mentoring/Adana.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mentoring/mentoring/input/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mentoring/mentoring/input/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Mentoring/mentoring/objects/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mentoring/mentoring/objects/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Mentoring/mentoring/objects/Princess.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mentoring/mentoring/objects/Princess.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mentoring/Adana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mentoring/Adana.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mentoring/input/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mentoring/input/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mentoring/objects/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mentoring/objects/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mentoring/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mentoring/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mentoring/objects/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mentoring/objects/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mentoring/objects/Princess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mentoring/objects/Princess.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +40,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JunitTests" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="Application.Runner">
@@ -102,22 +98,26 @@
       <screen x="67" y="27" width="2493" height="1053" />
     </state>
     <state x="1077" y="200" width="640" height="720" key="#com.intellij.ide.util.MemberChooser/67.27.2493.1053@67.27.2493.1053" timestamp="1581538567501" />
-    <state width="2437" height="250" key="GridCell.Tab.0.bottom" timestamp="1581633059028">
+    <state x="1046" y="256" width="524" height="601" key="FileChooserDialogImpl" timestamp="1581635784739">
       <screen x="67" y="27" width="2493" height="1053" />
     </state>
-    <state width="2437" height="250" key="GridCell.Tab.0.bottom/67.27.2493.1053@67.27.2493.1053" timestamp="1581633059028" />
-    <state width="2437" height="250" key="GridCell.Tab.0.center" timestamp="1581633059027">
+    <state x="1046" y="256" width="524" height="601" key="FileChooserDialogImpl/67.27.2493.1053@67.27.2493.1053" timestamp="1581635784739" />
+    <state width="2437" height="250" key="GridCell.Tab.0.bottom" timestamp="1581659889616">
       <screen x="67" y="27" width="2493" height="1053" />
     </state>
-    <state width="2437" height="250" key="GridCell.Tab.0.center/67.27.2493.1053@67.27.2493.1053" timestamp="1581633059027" />
-    <state width="2437" height="250" key="GridCell.Tab.0.left" timestamp="1581633059027">
+    <state width="2437" height="250" key="GridCell.Tab.0.bottom/67.27.2493.1053@67.27.2493.1053" timestamp="1581659889616" />
+    <state width="2437" height="250" key="GridCell.Tab.0.center" timestamp="1581659889616">
       <screen x="67" y="27" width="2493" height="1053" />
     </state>
-    <state width="2437" height="250" key="GridCell.Tab.0.left/67.27.2493.1053@67.27.2493.1053" timestamp="1581633059027" />
-    <state width="2437" height="250" key="GridCell.Tab.0.right" timestamp="1581633059028">
+    <state width="2437" height="250" key="GridCell.Tab.0.center/67.27.2493.1053@67.27.2493.1053" timestamp="1581659889616" />
+    <state width="2437" height="250" key="GridCell.Tab.0.left" timestamp="1581659889616">
       <screen x="67" y="27" width="2493" height="1053" />
     </state>
-    <state width="2437" height="250" key="GridCell.Tab.0.right/67.27.2493.1053@67.27.2493.1053" timestamp="1581633059028" />
+    <state width="2437" height="250" key="GridCell.Tab.0.left/67.27.2493.1053@67.27.2493.1053" timestamp="1581659889616" />
+    <state width="2437" height="250" key="GridCell.Tab.0.right" timestamp="1581659889616">
+      <screen x="67" y="27" width="2493" height="1053" />
+    </state>
+    <state width="2437" height="250" key="GridCell.Tab.0.right/67.27.2493.1053@67.27.2493.1053" timestamp="1581659889616" />
     <state width="2437" height="256" key="GridCell.Tab.1.bottom" timestamp="1581551482958">
       <screen x="67" y="27" width="2493" height="1053" />
     </state>
@@ -138,10 +138,10 @@
       <screen x="67" y="27" width="2493" height="1053" />
     </state>
     <state x="686" y="27" width="1350" height="1053" key="SettingsEditor/67.27.2493.1053@67.27.2493.1053" timestamp="1581362840736" />
-    <state x="476" y="81" width="1665" height="952" key="new project wizard" timestamp="1581365325130">
+    <state x="476" y="81" width="1665" height="952" key="new project wizard" timestamp="1581635792602">
       <screen x="67" y="27" width="2493" height="1053" />
     </state>
-    <state x="476" y="81" width="1665" height="952" key="new project wizard/67.27.2493.1053@67.27.2493.1053" timestamp="1581365325130" />
+    <state x="476" y="81" width="1665" height="952" key="new project wizard/67.27.2493.1053@67.27.2493.1053" timestamp="1581635792602" />
     <state x="892" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1581630282667">
       <screen x="67" y="27" width="2493" height="1053" />
     </state>

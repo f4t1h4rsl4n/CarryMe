@@ -2,7 +2,6 @@ package mentoring;
 
 import mentoring.input.Controller;
 import mentoring.input.KeyInput;
-import mentoring.objects.Enemy;
 import mentoring.objects.Home;
 import mentoring.objects.Player;
 import mentoring.objects.Princess;
@@ -45,9 +44,6 @@ public class Adana extends JPanel implements ActionListener {
             ImageIcon bg=new ImageIcon(getClass().getResource(backgroundAdress));
             return bg.getImage();
         }
-
-
-
 
     @Override
     public void actionPerformed(ActionEvent e) {

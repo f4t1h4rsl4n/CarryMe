@@ -11,8 +11,8 @@ public class Princess extends GlobalPosition {
         super(x, y);
     }
     public void update(int x,int y){
-    this.x=x;
-    this.y=y;
+    this.x=x-5;
+    this.y=y-20;
     }
     public void draw(Graphics2D g2d){
         g2d.drawImage(getPricessImage(),x,y,null);

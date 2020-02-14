@@ -59,7 +59,7 @@ public class Player extends GlobalPosition {
     }
     private void collisionWithHome(){
         if (getRectange().intersects(h.getRectangle())&&gotThePrincess){
-            JOptionPane.showMessageDialog(null,"Got the Princess! Happy Valantine's day :)");
+            JOptionPane.showMessageDialog(null,"got the girl yo! :)");
             System.exit(0);
         }
     }
